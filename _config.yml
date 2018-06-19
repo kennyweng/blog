@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: numberman
+title: Numberman
 subtitle:
 description:
 keywords:
-author: John Doe
-language: default
+author: Kenny
+language: zh_TW
 timezone: Asia/Taipei
 
 # URL

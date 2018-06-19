@@ -4,7 +4,7 @@ theme: cube
 header:
   background: http://cube-1252774894.cosgz.myqcloud.com/background.png
   # both pc and mobile required title(make it the same as your hexo site _config.yml's title)
-  title: numbermanの部落格
+  title: Numbermanの部落格
 
 
 # background display for pc
@@ -34,46 +34,46 @@ avatar: true
 
 menu:
   # index
-  - title: 首頁
+  - title: Home
     icon: home
     url: /
   # archives
-  - title: 歸檔
+  - title: Archive
     icon: archive
     url: archives
   # categories
-  - title: 分类
-    icon: categories
-    url: categories
+  #  title: 分类
+  #  icon: categories
+  #  url: categories
   # tags
-  - title: 标签
+  - title: Tags
     icon: tags
     url: tags
   # about-me
-  - title: 关于我
+  - title: About Me
     icon: about
     url: about-me
 
 sidebar:
   links:
     - title: GitHub
-      url: https://github.com/ZEROKISEKI
+      url: https://github.com/kennyweng
       # icon can be url or path
       icon: http://cube-1252774894.cosgz.myqcloud.com/links/GitHub.png
-    - title: Coding
-      url: https://coding.net/u/SORA1
-      icon: http://cube-1252774894.cosgz.myqcloud.com/links/Coding.png
-    - title: SF社区
-      url: https://segmentfault.com/u/aonosora
-      icon: http://cube-1252774894.cosgz.myqcloud.com/links/SF.png
-    - title: 开发者头条
-      url: https://toutiao.io/u/148070
-      icon: http://cube-1252774894.cosgz.myqcloud.com/links/开发者头条.png
+#    - title: Coding
+#      url: https://coding.net/u/SORA1
+#      icon: http://cube-1252774894.cosgz.myqcloud.com/links/Coding.png
+#    - title: SF社区
+#      url: https://segmentfault.com/u/aonosora
+#      icon: http://cube-1252774894.cosgz.myqcloud.com/links/SF.png
+#    - title: 开发者头条
+#      url: https://toutiao.io/u/148070
+#      icon: http://cube-1252774894.cosgz.myqcloud.com/links/开发者头条.png
   friend_links:
-    - title: 罗大佬
-      url: https://blog.micblo.com/
+    - title: 台中劉德華
+      url: https://asd01248967.github.io/
       # icon only url
-      icon: http://cube-1252774894.cosgz.myqcloud.com/friend_links/micblo.png
+      icon: https://www.elle.com.hk/var/ellehk/storage/images/wedding/marriage/andy-lau-tak-wah-carol-pregnant/18621953-1-chi-HK/50-4_img_885_590.png
     - title: DIYgod
       url: https://www.anotherhome.net/
       icon: http://cube-1252774894.cosgz.myqcloud.com/friend_links/DIYgod.jpg
