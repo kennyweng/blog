@@ -4,8 +4,6 @@ date: 2018-06-19 18:26:03
 tags: Prometheus
 ---
 
-# **Prometheus**
-
 # **Prometheus特點**
 
 多維數據架構 (由 metric 名稱與 key/ value 定義的時間序列)

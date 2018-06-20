@@ -2,15 +2,15 @@ theme: cube
 
 # background display for mobile, not for pc
 header:
-  background: http://cube-1252774894.cosgz.myqcloud.com/background.png
+  background: https://i.imgur.com/ywsWOzp.jpg
   # both pc and mobile required title(make it the same as your hexo site _config.yml's title)
-  title: Numbermanの部落格
+  title: Number Man Life
 
 
 # background display for pc
 # you can use url or path relative
 # `background: background.png` refers to the path "source/images/background.png"
-background: http://cube-1252774894.cosgz.myqcloud.com/background.png
+background: https://i.imgur.com/ywsWOzp.jpg
 
 
 # the background image width and height (you can see your image file to get them)
