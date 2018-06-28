@@ -142,25 +142,25 @@ ubuntu@ubuntu-xenial:~/harbor$ vim harbor.cfg
 ```yaml
 < hostname = reg.mydomain.com
 
-\> hostname = registry.08online.xsg
+> hostname = registry.08online.xsg
 
   
 
-< ui\_url\_protocol = http
+< ui_url_protocol = http
 
-\> ui\_url\_protocol = https
+> ui_url_protocol = https
 
   
 
 < ssl_cert = /data/cert/server.crt
 
-\> ssl_cert = /home/ubuntu/cert/registry.08online.xsg.crt
+> ssl_cert = /home/ubuntu/cert/registry.08online.xsg.crt
 
   
 
-< ssl\_cert\_key = /data/cert/server.key
+< ssl_cert_key = /data/cert/server.key
 
-\> ssl\_cert\_key = /home/ubuntu/cert/registry.08online.xsg.key
+> ssl_cert_key = /home/ubuntu/cert/registry.08online.xsg.key
 ```
   
   
