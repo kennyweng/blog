@@ -34,13 +34,13 @@ ubuntu@ubuntu-xenial:~$ cat /etc/lsb-release
 ubuntu@ubuntu-xenial:~$ sudo apt-get update
 
 ubuntu@ubuntu-xenial:~$ sudo apt-get install -y python
-```  
+```
   
 
 **# Check Python Version**
 ```linux
 ubuntu@ubuntu-xenial:~$ python --version
-```  
+```
   
 
 **# Install Docker**
@@ -49,36 +49,30 @@ ubuntu@ubuntu-xenial:~$ sudo apt-get install -y docker.io
 ```
   
   
-
 **# Check Docker Version**
 ```linux
 ubuntu@ubuntu-xenial:~$ sudo docker version
 ```
   
   
-  
-
 **# Install Docker Compose**
 ```linux
 ubuntu@ubuntu-xenial:~$ sudo curl -L   "https://github.com/docker/compose/releases/download/1.11.2/docker-compose-$(uname -s)-$(uname -m)"   -o /usr/local/bin/docker-compose
 ```
   
   
-
 **# 設定權限**
 ```linux
 ubuntu@ubuntu-xenial:~$ sudo chmod +x /usr/local/bin/docker-compose
 ```
   
   
-
 **# Check Docker Compose Version**
 ```linux
 ubuntu@ubuntu-xenial:~$ docker-compose --version
 ```
   
   
-
 **# /etc/ssl/openssl.cnf內的[v3_ca]加入倉庫IP**
 ```linux
 ubuntu@ubuntu-xenial:~$ sudo vim /etc/ssl/openssl.cnf  
