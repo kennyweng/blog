@@ -70,15 +70,22 @@ sidebar:
 #      url: https://toutiao.io/u/148070
 #      icon: http://cube-1252774894.cosgz.myqcloud.com/links/开发者头条.png
   friend_links:
-    - title: 台中劉德華
+    - title: Andy Liu
       url: https://asd01248967.github.io/
       # icon only url
-      icon: https://www.elle.com.hk/var/ellehk/storage/images/wedding/marriage/andy-lau-tak-wah-carol-pregnant/18621953-1-chi-HK/50-4_img_885_590.png
-    - title: 台中XXX
+      icon: https://i.imgur.com/vJCi7ly.png
+    - title: Rita
       url: https://rita830205.github.io/
       icon: http://cube-1252774894.cosgz.myqcloud.com/friend_links/DIYgod.jpg
-    #- title: 咪西西の部落格
-    #  url: https://aonosora.com/
+    - title: chunyi
+      url: https://www.chunyi.info/
+      icon: http://cube-1252774894.cosgz.myqcloud.com/friend_links/DIYgod.jpg
+    - title: Hui
+      url: https://www.yahuihu.info/
+      icon: http://cube-1252774894.cosgz.myqcloud.com/friend_links/DIYgod.jpg
+    - title: Hsin
+      url: https://www.pinkayo.info/
+      icon: http://cube-1252774894.cosgz.myqcloud.com/friend_links/DIYgod.jpg            
 
 # only path, refer to source/images
 friend_links: friend_links.jpg
