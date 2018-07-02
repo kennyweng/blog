@@ -1,7 +1,7 @@
 ---
 title: Ubuntu 網路設定
 date: 2018-06-29 16:29:35
-tags: Linux
+tags: Ubuntu
 ---
 
 # **修改Hostname**
