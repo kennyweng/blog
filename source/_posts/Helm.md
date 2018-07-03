@@ -18,8 +18,28 @@ Helm 把 Kubernetes 資源打包到一個 chart 中，而 chart 被保存到 cha
 
 # **Helm 概念**
 
+**# Chart**
+
+包含 Kubernetes 應用程序資源、佈署檔案的集合，為 Helm 的打包格式
+
+**# Release**
+
+在 Kubernetes 中運行的 Chart 實例，類似 Kubernetes 的 Deployment
+
+**# Repository**
+
+Helm的軟體倉庫，可儲存 Chart 軟體包已供下載，並有 Chart 包的清單檔案可查詢
+
 
 # **Helm 元件**
+
+**# Helm Client**
+
+一個安裝 Helm CLI 的機器，該機器透過 gRPC 連接 Tiller Server 來對 Repository、Chart 與 Release 等進行管理與操作，如建立、刪除與升級等操作
+
+**# Tiller Server**
+
+主要負責接收來至 Client 的指令，並透過 kube-apiserver 與 Kubernetes 叢集做溝通，根據 Chart 定義的內容，來產生與管理各種對應 API 物件的 Kubernetes 佈署
 
 
 # **Helm 安裝**
