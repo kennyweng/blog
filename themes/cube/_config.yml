@@ -85,7 +85,10 @@ sidebar:
       icon: http://cube-1252774894.cosgz.myqcloud.com/friend_links/DIYgod.jpg
     - title: Hsin
       url: https://www.pinkayo.info/
-      icon: http://cube-1252774894.cosgz.myqcloud.com/friend_links/DIYgod.jpg            
+      icon: http://cube-1252774894.cosgz.myqcloud.com/friend_links/DIYgod.jpg
+    - title: Mark Chan
+      url: https://markchan1209.github.io/
+      icon: http://cube-1252774894.cosgz.myqcloud.com/friend_links/DIYgod.jpg
 
 # only path, refer to source/images
 friend_links: friend_links.jpg
