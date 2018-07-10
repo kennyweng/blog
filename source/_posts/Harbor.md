@@ -114,19 +114,19 @@ ubuntu@ubuntu-xenial:~/cert$ openssl req -sha256 -x509 -days 365 -nodes -newkey 
 ```
   
 ```linux
-Country Name (2 letter code) \[AU\]:
+Country Name (2 letter code) [AU]:
 
-State or Province Name (full name) \[Some-State\]:
+State or Province Name (full name) [Some-State]:
 
-Locality Name (eg, city) \[\]:
+Locality Name (eg, city) []:
 
-Organization Name (eg, company) \[Internet Widgits Pty Ltd\]:
+Organization Name (eg, company) [Internet Widgits Pty Ltd]:
 
-Organizational Unit Name (eg, section) \[\]:
+Organizational Unit Name (eg, section) []:
 
-Common Name (e.g. server FQDN or YOUR name) \[\]:IP
+Common Name (e.g. server FQDN or YOUR name) []:IP
 
-Email Address \[\]:
+Email Address []:
 ```
   
   
@@ -201,7 +201,7 @@ ubuntu@ubuntu-xenial:~/harbor$ vim /home/ubuntu/cert/registry.08online.xsg.key
 **# 修改Docker login需要之憑證**
 
 ```linux
-ubuntu@ubuntu-xenial:~/harbor$ mkdir /etc/docker/certs.d/registry.08online.xsg
+ubuntu@ubuntu-xenial:~/harbor$ mkdir /etc/docker/certs.d/registry.08online.xsg/
   
 ubuntu@ubuntu-xenial:~/harbor$ vim /etc/docker/certs.d/registry.08online.xsg/ca.crt
   
