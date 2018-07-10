@@ -227,7 +227,7 @@ ubuntu@ubuntu-xenial:~/harbor$ docker login registry.08online.xsg
 **# 修改設定檔**
 
 ```linux
-ubuntu@ubuntu-xenial:~/harbor$ vim haobor.cfg
+ubuntu@ubuntu-xenial:~/harbor$ vim harbor.cfg
 
   
   
