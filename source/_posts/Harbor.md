@@ -201,7 +201,7 @@ ubuntu@ubuntu-xenial:~/harbor$ vim /home/ubuntu/cert/registry.08online.xsg.key
 **# 修改Docker login需要之憑證**
 
 ```linux
-ubuntu@ubuntu-xenial:~/harbor$ mkdir /etc/docker/certs.d/registry.08online.xsg/
+ubuntu@ubuntu-xenial:~/harbor$ mkdir -p /etc/docker/certs.d/registry.08online.xsg/
   
 ubuntu@ubuntu-xenial:~/harbor$ vim /etc/docker/certs.d/registry.08online.xsg/ca.crt
   
