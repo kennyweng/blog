@@ -59,6 +59,6 @@ http://hostname:10080
 
 認證來源>新增認證來源
 
-![](https://i.imgur.com/9NFqcUK.png)
+![](https://i.imgur.com/LI5Qtio.png)
 
 即可使用AD帳密登入
