@@ -42,9 +42,9 @@ menu:
     icon: archive
     url: archives
   # categories
-  #  title: 分类
-  #  icon: categories
-  #  url: categories
+  - title: Categories
+    icon: categories
+    url: /categories
   # tags
   - title: Tags
     icon: tags

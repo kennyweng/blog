@@ -2,6 +2,7 @@
 title: Prometheus (Docker)
 date: 2018-03-26 15:25:46
 tags: Prometheus
+categories: DevOps
 ---
 
 # **環境準備**

@@ -2,6 +2,7 @@
 title: Prometheus
 date: 2018-06-19 18:26:03
 tags: Prometheus
+categories: DevOps
 ---
 
 # **Prometheus特點**
