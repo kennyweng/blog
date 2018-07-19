@@ -44,7 +44,7 @@ menu:
   # categories
   - title: Categories
     icon: categories
-    url: /categories
+    url: categories
   # tags
   - title: Tags
     icon: tags
