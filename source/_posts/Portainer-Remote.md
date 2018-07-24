@@ -11,6 +11,7 @@ categories: DevOps
 ```linux
 sudo apt-get install -y docker.io
 ```
+<!-- more -->
 
 **# 下載Image**
 ```linux
