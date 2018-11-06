@@ -6,7 +6,7 @@ tags: Git
 
 # **Gitea 介紹**
 
-Gitea 是一個可自行託管的 Git 服務。
+Gitea 是一個可自行託管的 Git 服。
 
 <!-- more -->
 
