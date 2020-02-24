@@ -9,6 +9,8 @@ categories:
 
 ELK是由 ElasticSearch、Logstash、Kibana 三個 open-source 軟體組成。運作流程為，Logstash 從 Server 端收集了 Log 並將之處理後，將其推送至 ElasticSearch 進行儲存，再透過 Kibana 視覺化界面呈現出來，可在其介面上搜尋並分析 Log。
 
+<!-- more -->
+
 **# ElasticSearch**
 
 分布式搜尋引擎，可用於日誌的檢索
