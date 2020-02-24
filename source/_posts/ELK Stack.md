@@ -97,6 +97,7 @@ docker run -d --name elk-redis -p 6379:6379 -v /data/redis:/data --restart=alway
 | redis-server | 建立 redis 的 server（另有 redis-cli 的客端版本） |
 | --maxmemory 4gb | 設定 Redis Container 佔用記憶體的最大容量 |
 | --requirepass | 客端 VM 將 Log 資料傳送到 Redis 時驗證用的 key |
+
 \
 **# 建立 Elasticsearch**
 ```linux
@@ -113,6 +114,7 @@ docker run -d --name elk-elasticsearch -p 9200:9200 -v /data/elasticsearch:/usr/
 | -e ES_JAVA_OPTS:-Xms | 指定Elasticsearch 占用記憶體的初始值 |
 | -e ES_JAVA_OPTS:-Xmx | 指定Elasticsearch 占用記憶體的最大值 |
 | elasticsearch:5.3.1 | Elasticsearch 的映像檔名稱與版本 |
+
 \
 **# 建立 Logstash**
 
