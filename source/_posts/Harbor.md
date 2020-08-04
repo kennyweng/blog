@@ -110,7 +110,7 @@ ubuntu@ubuntu-xenial:~$ cd cert
 
 **# Input Common Name only at this time**
 ```linux
-ubuntu@ubuntu-xenial:~/cert$ openssl req -sha256 -x509 -days 365 -nodes -newkey rsa:4096 -keyout registry.08online.xsg.key -out registry.08online.xsg.crt
+ubuntu@ubuntu-xenial:~/cert$ openssl req -sha256 -x509 -days 365 -nodes -newkey rsa:4096 -keyout registry.kenny.info.key -out registry.kenny.info.crt
 ```
   
 ```linux
@@ -142,7 +142,7 @@ ubuntu@ubuntu-xenial:~/harbor$ vim harbor.cfg
 ```yaml
 < hostname = reg.mydomain.com
 
-> hostname = registry.08online.xsg
+> hostname = registry.kenny.info
 
   
 
@@ -154,13 +154,13 @@ ubuntu@ubuntu-xenial:~/harbor$ vim harbor.cfg
 
 < ssl_cert = /data/cert/server.crt
 
-> ssl_cert = /home/ubuntu/cert/registry.08online.xsg.crt
+> ssl_cert = /home/ubuntu/cert/registry.kenny.info.crt
 
   
 
 < ssl_cert_key = /data/cert/server.key
 
-> ssl_cert_key = /home/ubuntu/cert/registry.08online.xsg.key
+> ssl_cert_key = /home/ubuntu/cert/registry.kenny.info.key
 ```
   
   
@@ -193,26 +193,26 @@ ubuntu@ubuntu-xenial:~/harbor$ sudo docker-compose top
 **# 修改憑證，需用公司憑證取代**
 
 ```linux
-ubuntu@ubuntu-xenial:~/harbor$ vim /home/ubuntu/cert/registry.08online.xsg.crt
+ubuntu@ubuntu-xenial:~/harbor$ vim /home/ubuntu/cert/registry.kenny.info.crt
   
-ubuntu@ubuntu-xenial:~/harbor$ vim /home/ubuntu/cert/registry.08online.xsg.key
+ubuntu@ubuntu-xenial:~/harbor$ vim /home/ubuntu/cert/registry.kenny.info.key
 ```
   
 **# 修改Docker login需要之憑證**
 
 ```linux
-ubuntu@ubuntu-xenial:~/harbor$ mkdir -p /etc/docker/certs.d/registry.08online.xsg/
+ubuntu@ubuntu-xenial:~/harbor$ mkdir -p /etc/docker/certs.d/registry.kenny.info/
   
-ubuntu@ubuntu-xenial:~/harbor$ vim /etc/docker/certs.d/registry.08online.xsg/ca.crt
+ubuntu@ubuntu-xenial:~/harbor$ vim /etc/docker/certs.d/registry.kenny.info/ca.crt
   
-ubuntu@ubuntu-xenial:~/harbor$ vim /etc/docker/certs.d/registry.08online.xsg/client.cert
+ubuntu@ubuntu-xenial:~/harbor$ vim /etc/docker/certs.d/registry.kenny.info/client.cert
 
-ubuntu@ubuntu-xenial:~/harbor$ vim /etc/docker/certs.d/registry.08online.xsg/client.key
+ubuntu@ubuntu-xenial:~/harbor$ vim /etc/docker/certs.d/registry.kenny.info/client.key
 ```
 
 **# 測試登入**
 ```linux
-ubuntu@ubuntu-xenial:~/harbor$ docker login registry.08online.xsg
+ubuntu@ubuntu-xenial:~/harbor$ docker login registry.kenny.info
 ```
 帳號：admin
 
@@ -286,7 +286,7 @@ ubuntu@ubuntu-xenial:~/harbor$ docker-compose up -d
 **# 先使用管理者帳號登入**
 
 ```linux
-ubuntu@ubuntu-xenial:~/harbor$ docker login registry.08online.xsg
+ubuntu@ubuntu-xenial:~/harbor$ docker login registry.kenny.info
 ```
 帳號：admin
 
@@ -316,7 +316,7 @@ Configuration > Authentication
 **# 登入**
 
 ```linux
-ubuntu@ubuntu-xenial:~/harbor$ docker login registry.08online.xsg
+ubuntu@ubuntu-xenial:~/harbor$ docker login registry.kenny.info
 ```
   
   
@@ -324,7 +324,7 @@ ubuntu@ubuntu-xenial:~/harbor$ docker login registry.08online.xsg
 **# 幫需上傳的image加上tag**
 
 ```linux
-ubuntu@ubuntu-xenial:~/harbor$ docker tag redis:latest registry.08online.xsg/redis:latest
+ubuntu@ubuntu-xenial:~/harbor$ docker tag redis:latest registry.kenny.info/redis:latest
 ```
   
   
@@ -332,7 +332,7 @@ ubuntu@ubuntu-xenial:~/harbor$ docker tag redis:latest registry.08online.xsg/red
 **# 上傳**
 
 ```linux
-ubuntu@ubuntu-xenial:~/harbor$ docker push registry.08online.xsg/library/redis:latest
+ubuntu@ubuntu-xenial:~/harbor$ docker push registry.kenny.info/library/redis:latest
 ```
   
   
@@ -340,6 +340,6 @@ ubuntu@ubuntu-xenial:~/harbor$ docker push registry.08online.xsg/library/redis:l
 **# 下載**
 
 ```linux
-ubuntu@ubuntu-xenial:~/harbor$ docker pull registry.08online.xsg/library/redis:latest
+ubuntu@ubuntu-xenial:~/harbor$ docker pull registry.kenny.info/library/redis:latest
 ```
 ****
